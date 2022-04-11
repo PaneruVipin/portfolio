@@ -14,7 +14,7 @@ function ProjectPage() {
 					<img className='md:w-2/3 h-80' src={Project2} />
 					<img className='md:w-2/3 h-80' src={Project3} />
 					<img className='md:w-2/3 h-80' src={Project4} />
-			</div >
+			</div>
       <div className='text-center'>
       <H1>I'm <span className='text-yellow-500 '>Always Available</span></H1>
       <span className='font-bold text-indigo-700'>Contact me on 9411369310</span>
