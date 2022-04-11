@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg_image{
+   background-image: url('PhotoVipin.png');
+  background-repeat: no-repeat;
+}
+/*background-repeat: no-repeat;
+  background-attachment: Local;
+  background-size: cover;
+  background-position: left;
+.ss1{
+   background-image: url('Project1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ss2{
+   background-image: url('Project2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ss3{
+   background-image: url('Project3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ss4{
+   background-image: url('Project4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
