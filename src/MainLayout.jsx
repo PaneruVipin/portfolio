@@ -15,7 +15,7 @@ function  MainLayout () {
   return(
    <div className='bg-gray-900 text-white min-h-screen'>
     
-     <div className='pt-4 pl-4'>
+     <div className='pt-2 pl-2'>
        <GiHamburgerMenu onClick={showSideBar} className= ' w-10 h-10 md:hidden'/>
      </div>
        {toggleSideBar  
