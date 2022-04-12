@@ -8,7 +8,6 @@ function HomePage(){
         <span className='text-green-500 font-bold text-lg'>Hello </span>
         <H1>I am Vipin<br/><span className='text-yellow-500'> Paneru</span></H1>
         <span className='font-bold text-2xl'>I am Web devloper based in India</span>
-        
       <p className='hidden md:block'>Copyright ©2022 All rights reserved<br/> | 
 Made with ❤️ at CodeYogi </p>
       </div>
