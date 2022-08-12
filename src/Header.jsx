@@ -8,8 +8,7 @@ function Header(props){
       <div className='flex space-x-4'>
       <MyLink to='home'>Home</MyLink>
       <MyLink to='about'>About</MyLink>
-      <MyLink to='service'>Service</MyLink>
-      <MyLink to='skill'>Skill</MyLink>
+      <MyLink to='skills'>Skills</MyLink>
       <MyLink to='project'>Project</MyLink>
       <MyLink to='contact'>Contact</MyLink>
         </div>

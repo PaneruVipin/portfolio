@@ -3,22 +3,39 @@ import H1 from './H1';
 import { BiPhoneCall } from 'react-icons/bi';
 import { SiMinutemailer } from 'react-icons/si';
 function ContactPage(){
-  const style={color:'yellow'}
+  const style={color:'red'}
   return(
-    <div className='md:py-40 py-10 flex flex-col items-center md:px-56 space-y-6 '>
+    <div className=' min-h-screen flex flex-col items-center bg-green-500 space-y-6 '>
     <H1>Contact Me</H1>
-      <p></p>
-      <div className='flex md:flex-row flex-col justify-around  space-y-10 md:space-y-0 pl-20 w-full'>
-      <div className='flex flex-col space-y-2'>
-      <BiPhoneCall style={style} className='rounded-full bg-gray-700 p-6 w-32 h-32'/>
+      <div className='md:flex  justify-between  space-y-10 md:space-y-0 w-full'>
+      <a href='callto:7505471508' target='blank'>
+      <div className='flex items-center gap-x-8 rounded-md shadow-md hover:bg-indigo-500 p-4 bg-yellow-400'>
+      <BiPhoneCall style={style} className='rounded-full  w-10 h-10'/>
+      <div className='flex-col flex '>
       <span>CONTACT NUMBER</span>
-        <span>9411369310</span>
+        <span>7505471508</span>
         </div>
-      <div className='flex flex-col space-y-2 '>
-       <SiMinutemailer style={style} className='rounded-full bg-gray-700 p-6 w-32 h-32'/>
-        <span>EMAIL ADDRESS</span>
+        </div>
+        </a>
+        <a href='mailto:paneruvipinbusiness@gmail.com' target='blank'>
+      <div className='flex items-center gap-x-8 rounded-md shadow-md hover:bg-indigo-500 p-4 bg-yellow-400'>
+      <SiMinutemailer style={style} className='rounded-full   w-10 h-10'/>
+      <div className='flex-col flex '>
+      <span>EMAIL ADDRESS</span>
         <span>paneruvipinbusiness@gmail.com</span>
         </div>
+        </div>
+        </a>
+         
+        <a href='https://wa.me/+919411369310' target='blank'>
+      <div className='flex items-center gap-x-8 rounded-md shadow-md hover:bg-indigo-500 p-4 bg-yellow-400'>
+      <SiMinutemailer style={style} className='rounded-full   w-10 h-10'/>
+      <div className='flex-col flex '>
+      <span>WHATSAAP ME</span>
+        <span>9411369310</span>
+        </div>
+        </div>
+        </a>
         </div>
       <p className='pt-24 text-center '>Copyright ©2022 All rights reserved | 
 Made with<br/> ❤️ at CodeYogi </p>
@@ -26,4 +43,3 @@ Made with<br/> ❤️ at CodeYogi </p>
        );
 }
 export default ContactPage;
-//SiMinutemailer

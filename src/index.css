@@ -2,7 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg_image{
-   background-image: url('PhotoVipin.png');
-  background-repeat: no-repeat;
-}
+
