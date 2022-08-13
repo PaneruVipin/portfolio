@@ -10,12 +10,12 @@ function ContactPage(){
     <H1>Contact Me</H1>
       <div className='md:flex md:px-32 px-6 justify-between flex-wrap space-y-10 md:space-y-0 w-full'>
         <div>
-      <a href='callto:7505471508' target='blank'>
+      <a href='callto:+917505471508' target='blank'>
       <div className='flex items-center gap-x-8 rounded-md shadow-md hover:bg-yellow-500 p-4 bg-indigo-400'>
       <BiPhoneCall style={style} className='rounded-full  w-10 h-10'/>
       <div className='flex-col flex '>
       <span>CONTACT NUMBER</span>
-        <span>7505471508</span>
+        <span>+91 7505471508</span>
         </div>
         </div>
         </a>
@@ -37,7 +37,7 @@ function ContactPage(){
       <FaWhatsappSquare style={style} className='rounded-full   w-10 h-10'/>
       <div className='flex-col flex '>
       <span>WHATSAAP ME</span>
-        <span>9411369310</span>
+        <span>+91 9411369310</span>
         </div>
         </div>
         </a>

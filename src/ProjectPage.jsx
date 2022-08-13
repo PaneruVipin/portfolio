@@ -54,7 +54,7 @@ function ProjectPage() {
 			</div>
       <div className='text-center'>
       <H1>I'm <span className='text-yellow-500 '>Always Available</span></H1>
-      <a className='font-bold text-indigo-700' href='callto:7505471508'>Contact me on 7505471508</a>
+      <a className='font-bold text-indigo-700' href='callto:+917505471508'>Contact me on +91 7505471508</a>
         </div>
 		</div>
 	);
