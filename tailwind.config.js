@@ -17,7 +17,11 @@ module.exports = {
         'responsive-5':"url('../public/responsive5.png')",
         'shiksha-1':"url('../public/shiksha1.png')",
         'shiksha-2':"url('../public/shiksha2.png')"
-       }
+       },
+       height: {
+        '96': '24rem',
+        '128':'32rem'
+      }
     },
   },
   plugins: [],
